@@ -8,12 +8,14 @@
 
 .card_area {
     background: #f2dfec;
+    margin: 0;
+    padding: 0;
 }
 
 div.card {
     margin-top: 4px;
     margin-bottom: 3px;
-    width: 252px;
+    width: 249px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
     text-align: center;
     display: block;
@@ -54,6 +56,8 @@ div.header {
 
 .marquee_area {
     background: #0fb9b1;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .l_news {
@@ -65,19 +69,23 @@ div.header {
     color: #d1d8e0;
 }
 
+.l_title {
+    margin: 0;
+}
+
 .marq {
-    width: 90%;
     display: inline-block;
     float: right;
-    padding: 10px;
+    padding: 6px;
+    width: 100%;
 }
 
 .mar {
     display: inline-block;
+    width: 100%;
 }
 
 .about_area {
-    
     width: 100%;
     background: #6D214F;
 }
@@ -125,11 +133,13 @@ div.header {
     height: 290px;
     border: 1px solid black;
     border-radius: 5px;
+    z-index: -1;
 }
 
 .mar_content p{
     margin: 10px;
     display: block;
+    z-index: -1;
 }
 
 .content {
