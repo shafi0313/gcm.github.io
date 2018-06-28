@@ -180,3 +180,52 @@ div.header {
 .powered a{
     color: #d1d8e0;
 }
+/*Go to top*/
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 32px;
+    text-align: center;
+    line-height: 27px;
+    background: #47484B;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+#back-to-top:hover {
+    background: #1D1F21;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+
+/*---------scrollbar----------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b41228; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #980b1a; 
+}
