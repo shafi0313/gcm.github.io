@@ -99,6 +99,14 @@ div.header {
     font-weight: 500;
 }
 
+.model_button {
+    margin-top: 20px
+}
+
+.model_pra {
+    text-align: justify;
+}
+
 .feature_area {
     padding: 20px;
 }
@@ -228,4 +236,30 @@ div.header {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #980b1a; 
+}
+
+.sub_page_title {
+    background: #eb3b5a;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.about_area {
+    background: gray;
+    padding: 20px 0;
+}
+
+.about_img {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_title {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
 }
