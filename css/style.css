@@ -150,6 +150,16 @@ div.header {
     z-index: -1;
 }
 
+.mar_content h5 a{
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.mar_content h5 a i{
+    color: #980B1A;
+}
+
 .content {
     background: url(image/2.jpg);
 }
@@ -165,7 +175,7 @@ div.header {
 }
 
 .footer_area p, .footer_area a{
-    color: white
+    color: white;
 }
 
 .copy_area {
@@ -188,6 +198,32 @@ div.header {
 .powered a{
     color: #d1d8e0;
 }
+
+/*Contact Page*/
+
+.contact_area {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.contact_area img{
+    width: 200px;
+    padding: 20px;
+}
+
+.contact_area p{
+    text-align: left;
+}
+
+.title_b_b {
+    border-bottom: 5px solid #f7b731;
+}
+
 /*Go to top*/
 #back-to-top {
     position: fixed;
